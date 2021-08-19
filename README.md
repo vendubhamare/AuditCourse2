@@ -4,7 +4,6 @@
 # HELLO!!! VAIDEHI BHAMARE HERE !!!
 ### I have created two pages in order to use maximum css properties . This project is for practice propose . Following are the tags and properties that I have used.
 
-### Page 1 : Prac 1
 #### HTML Properties:
 #### body
 #### div
