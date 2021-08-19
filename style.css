@@ -24,7 +24,7 @@ li a {
   text-decoration: none;
 }
 @keyframes p1 {
-  0% {background-color: linear-gradient(100deg, red,orange,yellow,green,blue,indigo,violet);}
+  0% {background-image: linear-gradient(100deg, red,orange,yellow,green,blue,indigo,violet);}
     
   25%  {background-image : linear-gradient(to right, red, yellow);}
   50%  {transform: skew(20deg,20deg);}
@@ -44,3 +44,34 @@ li a {
     animation: p1 5s 2s infinite;
 }
 
+#tdiv {
+  margin: 4rem;
+
+}
+
+
+.p2 {
+  
+  font-size: 2rem;
+  font-family :Georgia, 'Times New Roman', Times, serif; 
+  text-align: center;
+  color: rgb(10, 17, 116);
+  text-shadow: blueviolet;
+  position: relative;
+  animation: happy 5s infinite;
+}
+ 
+@keyframes happy {
+  0%{
+    background-color: lawngreen;
+  }
+  50% {
+    transform: translate(10%,100%);
+  }
+  75% {
+    transform: rotate(20deg);
+  }
+  100% {
+    transform: rotate(-20deg);
+  }
+}
