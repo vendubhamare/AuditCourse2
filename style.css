@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+    
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(35, 6, 82);
+  height: fit-content;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+@keyframes p1 {
+  0% {background-color: linear-gradient(100deg, red,orange,yellow,green,blue,indigo,violet);}
+    
+  25%  {background-image : linear-gradient(to right, red, yellow);}
+  50%  {transform: skew(20deg,20deg);}
+  75%  {transform: skew(-20deg,-20deg);}
+  100% {background-image: linear-gradient(45deg, brown,rgb(212, 133, 130));}
+}
+
+#odiv {
+    height: 5rem;
+    width : 5rem;
+    background-image: linear-gradient(100deg, red,orange,yellow,green,blue,indigo,violet);
+    border: 1rem solid green;
+    padding: 5rem;
+    margin: 5rem;
+    position: relative;
+    box-shadow: 10px 10px rgba(82, 76, 131, 0.5) ;
+    animation: p1 5s 2s infinite;
+}
+
